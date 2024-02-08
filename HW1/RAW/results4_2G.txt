@@ -1,0 +1,421 @@
+#################################### CPU ####################################
+************************ 1 ****************************
+@@@ 10000 
+Latency (ms):
+         min:                                    2.12
+         avg:                                    3.06
+         max:                                   24.57
+         95th percentile:                        4.25
+         sum:                                29765.75
+
+
+************************ 2 ****************************
+@@@ 10000 
+
+Latency (ms):
+         min:                                    2.07
+         avg:                                    3.36
+         max:                                  111.69
+         95th percentile:                        5.28
+         sum:                                29699.38
+
+
+
+************************ 3 ****************************
+@@@ 10000 
+
+Latency (ms):
+         min:                                    2.52
+         avg:                                    4.14
+         max:                                   49.72
+         95th percentile:                        6.91
+         sum:                                29666.07
+
+
+
+@@@ 20000 
+
+Latency (ms):
+         min:                                    5.72
+         avg:                                    8.37
+         max:                                   45.54
+         95th percentile:                       11.04
+         sum:                                29843.27
+
+@@@ 20000 
+
+Latency (ms):
+         min:                                    5.77
+         avg:                                    7.12
+         max:                                   22.01
+         95th percentile:                        8.74
+         sum:                                29884.32  
+
+@@@ 20000 
+
+Latency (ms):
+         min:                                    5.73
+         avg:                                    8.06
+         max:                                   48.14
+         95th percentile:                       11.24
+         sum:                                29851.60
+
+@@@ 20000 
+
+Latency (ms):
+         min:                                    5.79
+         avg:                                    9.22
+         max:                                   73.79
+         95th percentile:                       16.12
+         sum:                                29788.80
+
+@@@ 20000 
+Latency (ms):
+         min:                                    6.90
+         avg:                                   10.89
+         max:                                   91.10
+         95th percentile:                       19.29
+         sum:                                29841.54
+
+
+************************ 4 ****************************
+@@@ 10000 
+
+Latency (ms):
+         min:                                    2.12
+         avg:                                    2.72
+         max:                                   14.80
+         95th percentile:                        3.62
+         sum:                                29816.60
+
+************************ 5 ****************************
+@@@ 10000 
+
+Latency (ms):
+         min:                                    2.61
+         avg:                                    5.67
+         max:                                   67.53
+         95th percentile:                       15.00
+         sum:                                29543.88
+
+
+#################################### MEMO ####################################
+@@@ 1k 
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   94.70
+         95th percentile:                        0.00
+         sum:                                 9241.86
+
+
+@@@ 1k 
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.01
+         max:                                   34.74
+         95th percentile:                        0.00
+         sum:                                 9095.53
+
+
+@@@ 1k 
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   82.66
+         95th percentile:                        0.00
+         sum:                                 9348.04
+
+
+
+@@@ 1k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   51.67
+         95th percentile:                        0.00
+         sum:                                 9566.20
+
+
+@@@ 1k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   24.81
+         95th percentile:                        0.00
+         sum:                                 9688.43
+
+
+
+@@@ 2k 
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   31.84
+         95th percentile:                        0.00
+         sum:                                 9999.15
+
+@@@ 2k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   28.96
+         95th percentile:                        0.00
+         sum:                                10373.25
+
+@@@ 2k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.01
+         max:                                  172.71
+         95th percentile:                        0.01
+         sum:                                 9692.60
+
+@@@ 2k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   28.46
+         95th percentile:                        0.00
+         sum:                                10757.81
+
+@@@ 2k 
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                   33.80
+         95th percentile:                        0.00
+         sum:                                10083.13
+
+
+
+#################################### FILEIO ####################################
+@@@ seqrewr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     289.81
+    fsyncs/s:                     373.86
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               4.53
+
+General statistics:
+    total time:                          30.6845s
+    total number of events:              20253
+
+Latency (ms):
+         min:                                    0.06
+         avg:                                    1.44
+         max:                                  191.08
+         95th percentile:                        5.37
+         sum:                                29156.38
+
+
+@@@ seqrewr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     424.81
+    fsyncs/s:                     544.22
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               6.64
+
+General statistics:
+    total time:                          30.1160s
+    total number of events:              29070
+
+Latency (ms):
+         min:                                    0.06
+         avg:                                    1.00
+         max:                                   80.72
+         95th percentile:                        4.03
+         sum:                                29175.12
+
+
+
+@@@ seqrewr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     564.90
+    fsyncs/s:                     724.50
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               8.83
+
+General statistics:
+    total time:                          30.0869s
+    total number of events:              38675
+
+Latency (ms):
+         min:                                    0.06
+         avg:                                    0.75
+         max:                                   92.10
+         95th percentile:                        2.39
+         sum:                                29156.92
+
+
+@@@ seqrewr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     497.71
+    fsyncs/s:                     638.60
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               7.78
+
+General statistics:
+    total time:                          30.1298s
+    total number of events:              34118
+
+Latency (ms):
+         min:                                    0.06
+         avg:                                    0.85
+         max:                                  159.69
+         95th percentile:                        3.36
+         sum:                                29169.08
+
+
+@@@ seqrewr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     310.69
+    fsyncs/s:                     398.22
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               4.85
+
+General statistics:
+    total time:                          30.2471s
+    total number of events:              21320
+
+Latency (ms):
+         min:                                    0.07
+         avg:                                    1.37
+         max:                                   97.03
+         95th percentile:                        5.77
+         sum:                                29157.44
+
+
+@@@ rndwr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     304.43
+    fsyncs/s:                     391.95
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               4.76
+
+General statistics:
+    total time:                          30.2126s
+    total number of events:              20917
+
+Latency (ms):
+         min:                                    0.03
+         avg:                                    1.40
+         max:                                   62.49
+         95th percentile:                        5.09
+         sum:                                29360.08
+
+
+@@@ rndwr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     206.96
+    fsyncs/s:                     267.79
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               3.23
+
+General statistics:
+    total time:                          30.9097s
+    total number of events:              14553
+
+Latency (ms):
+         min:                                    0.03
+         avg:                                    2.03
+         max:                                  162.04
+         95th percentile:                        8.43
+         sum:                                29508.24
+
+@@@ rndwr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     155.30
+    fsyncs/s:                     199.99
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               2.43
+
+General statistics:
+    total time:                          30.8857s
+    total number of events:              10853
+
+Latency (ms):
+         min:                                    0.04
+         avg:                                    2.71
+         max:                                  440.73
+         95th percentile:                       12.08
+         sum:                                29420.08
+
+
+@@@ rndwr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     274.93
+    fsyncs/s:                     355.61
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               4.30
+
+General statistics:
+    total time:                          30.1745s
+    total number of events:              18908
+
+Latency (ms):
+         min:                                    0.03
+         avg:                                    1.56
+         max:                                   60.88
+         95th percentile:                        5.99
+         sum:                                29526.04
+
+
+@@@ rndwr 
+File operations:
+    reads/s:                      0.00
+    writes/s:                     220.13
+    fsyncs/s:                     282.23
+
+Throughput:
+    read, MiB/s:                  0.00
+    written, MiB/s:               3.44
+
+General statistics:
+    total time:                          30.4281s
+    total number of events:              15162
+
+Latency (ms):
+         min:                                    0.03
+         avg:                                    1.95
+         max:                                  116.01
+         95th percentile:                        8.43
+         sum:                                29515.60
+
+
+
+
+
+
+#################################### UPLOAD ####################################
