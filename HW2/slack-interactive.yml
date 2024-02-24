@@ -6,5 +6,5 @@ functions:
   slack-interactive:
     lang: python
     handler: ./slack-interactive
-    image: slack-interactive:latest
+    image: ztjnwu/slack-interactive:latest
 
