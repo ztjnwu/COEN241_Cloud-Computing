@@ -10,7 +10,7 @@ def handle(req):
                 "value": "100",
                 "short": True
             }],
-            "author_name": <FILL IN THE BLANK>,
+            "author_name": < FILL IN THE BLANK >,
             "author_icon": "",
             "image_url": <FILL IN THE BLANK>
         },
